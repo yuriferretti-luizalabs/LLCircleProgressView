@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		607902781E8ABB2F0002D000 /* CircleProgressView.h in Headers */ = {isa = PBXBuildFile; fileRef = 607902761E8ABB2F0002D000 /* CircleProgressView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6079027F1E8ABB550002D000 /* CircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6079027E1E8ABB550002D000 /* CircleLayer.swift */; };
-		607902811E8ABBCB0002D000 /* CircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607902801E8ABBCB0002D000 /* CircleProgressView.swift */; };
+		607902851E8ABDC70002D000 /* LLCircleLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607902831E8ABDC70002D000 /* LLCircleLayer.swift */; };
+		607902861E8ABDC70002D000 /* LLCircleProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607902841E8ABDC70002D000 /* LLCircleProgressView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		607902731E8ABB2F0002D000 /* CircleProgressView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CircleProgressView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607902761E8ABB2F0002D000 /* CircleProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleProgressView.h; sourceTree = "<group>"; };
 		607902771E8ABB2F0002D000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6079027E1E8ABB550002D000 /* CircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleLayer.swift; sourceTree = "<group>"; };
-		607902801E8ABBCB0002D000 /* CircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleProgressView.swift; sourceTree = "<group>"; };
+		607902831E8ABDC70002D000 /* LLCircleLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCircleLayer.swift; sourceTree = "<group>"; };
+		607902841E8ABDC70002D000 /* LLCircleProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LLCircleProgressView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +50,20 @@
 		607902751E8ABB2F0002D000 /* CircleProgressView */ = {
 			isa = PBXGroup;
 			children = (
+				607902821E8ABDC70002D000 /* Source */,
 				607902761E8ABB2F0002D000 /* CircleProgressView.h */,
 				607902771E8ABB2F0002D000 /* Info.plist */,
-				6079027E1E8ABB550002D000 /* CircleLayer.swift */,
-				607902801E8ABBCB0002D000 /* CircleProgressView.swift */,
 			);
 			path = CircleProgressView;
+			sourceTree = "<group>";
+		};
+		607902821E8ABDC70002D000 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				607902831E8ABDC70002D000 /* LLCircleLayer.swift */,
+				607902841E8ABDC70002D000 /* LLCircleProgressView.swift */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +147,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6079027F1E8ABB550002D000 /* CircleLayer.swift in Sources */,
-				607902811E8ABBCB0002D000 /* CircleProgressView.swift in Sources */,
+				607902851E8ABDC70002D000 /* LLCircleLayer.swift in Sources */,
+				607902861E8ABDC70002D000 /* LLCircleProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

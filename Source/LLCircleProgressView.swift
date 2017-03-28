@@ -8,10 +8,10 @@
 
 import UIKit
 
-open class CircleProgressView: UIView {
+open class LLCircleProgressView: UIView {
     
-    private var trackingLayer: CircleLayer?
-    private var progressLayer: CircleLayer?
+    private var trackingLayer: LLCircleLayer?
+    private var progressLayer: LLCircleLayer?
     private let backgroundMask = CAShapeLayer()
     
     public var lineWidth: CGFloat = 50 {
@@ -49,7 +49,7 @@ open class CircleProgressView: UIView {
         progressLayer?.setProgress(progress, animated: animated)
     }
     
-    override func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         
         let centerReference = (bounds.width / 2)
@@ -63,7 +63,7 @@ open class CircleProgressView: UIView {
             $0?.removeFromSuperlayer()
         }
         
-        trackingLayer = CircleLayer(
+        trackingLayer = LLCircleLayer(
             center: center,
             radius: radius,
             startAngle: startAngle,
@@ -73,7 +73,7 @@ open class CircleProgressView: UIView {
         )
         trackingLayer?.strokeEnd = 1
         trackingLayer?.lineColor = trackColor
-        progressLayer = CircleLayer(
+        progressLayer = LLCircleLayer(
             center: center,
             radius: radius,
             startAngle: startAngle,

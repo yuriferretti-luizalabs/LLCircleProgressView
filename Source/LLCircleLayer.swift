@@ -6,7 +6,7 @@
 //  Copyright © 2017 yuri. All rights reserved.
 //
 
-open class CircleLayer: CAShapeLayer {
+open class LLCircleLayer: CAShapeLayer {
     
     private let progressAnimationKey = "progress-animation-key"
     
