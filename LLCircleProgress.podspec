@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE.md" }
   s.author             = { "Yuri Ferretti" => "yuri.ferretti@luizalabs.com" }
   s.platform     = :ios, "8.0"
-  s.source       = { :git => "http://EXAMPLE/LLCircleProgress.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/yuriferretti-luizalabs/LLCircleProgressView.git", :tag => "#{s.version}" }
   s.source_files  = "Source/**/*.{swift}"
   s.framework  = "UIKit"
 
