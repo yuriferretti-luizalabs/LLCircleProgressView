@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
 
   s.name         = "LLCircleProgress"
   s.version      = "0.0.1"
-  s.summary      = "Circular percent based progress view"
+  s.summary      = "Circular progress view"
   s.description  = "Circular percent based progress view"
 
   s.homepage     = "http://www.luizalabs.com"
